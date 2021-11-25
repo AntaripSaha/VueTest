@@ -25,6 +25,12 @@
     <input type="radio" id="student" name="des" value="student" v-model="designation" />
 
     <h4>I Am A: {{ designation }}</h4>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 </div>
 </template>
 

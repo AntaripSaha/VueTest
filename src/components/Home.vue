@@ -18,7 +18,7 @@
     <br />
     <br />
     <br />
-    <button type="button" v-on:click="getData">Submit</button>
+    <button type="button" v-on:click="getData()">Submit</button>
   </div>
 </template>
 

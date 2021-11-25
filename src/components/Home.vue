@@ -10,11 +10,16 @@
     <br />
     <br />
     <br />
-    <input placeholder="Email" type="text" v-model="email" />
+    <input class="input" placeholder="Email" type="text" v-model="email" />
     <br />
     <br />
     <br />
-    <input placeholder="Password" type="password" v-model="password" />
+    <input
+      class="input"
+      placeholder="Password"
+      type="password"
+      v-model="password"
+    />
     <br />
     <br />
     <br />
@@ -59,7 +64,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(0, 255, 13);
+  color: rgba(255, 81, 0, 0.644);
 }
 
 p {
@@ -68,5 +73,9 @@ p {
 
 button {
   color: rgb(8, 97, 63);
+}
+
+.input {
+  border: 2px solid skyblue;
 }
 </style>

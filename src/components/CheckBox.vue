@@ -39,7 +39,7 @@ export default {
     name: "CheckBox",
     data() {
         return {
-            technology: [],
+            technology:[],
             designation: null,
         };
     },
